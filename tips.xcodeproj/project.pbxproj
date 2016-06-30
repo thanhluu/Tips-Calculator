@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B66355C91D250D87005DCAB1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B66355C81D250D87005DCAB1 /* README.md */; };
+		B66355CD1D250DEB005DCAB1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B66355CC1D250DEB005DCAB1 /* README.md */; };
 		B66D4D551D24AF4F000F7F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D4D541D24AF4F000F7F5B /* AppDelegate.swift */; };
 		B66D4D571D24AF4F000F7F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D4D561D24AF4F000F7F5B /* ViewController.swift */; };
 		B66D4D5C1D24AF4F000F7F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66D4D5B1D24AF4F000F7F5B /* Assets.xcassets */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B66355C81D250D87005DCAB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = tips/README.md; sourceTree = "<group>"; };
+		B66355CC1D250DEB005DCAB1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B66D4D511D24AF4F000F7F5B /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66D4D541D24AF4F000F7F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B66D4D561D24AF4F000F7F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 			children = (
 				B66D4D531D24AF4F000F7F5B /* tips */,
 				B66D4D521D24AF4F000F7F5B /* Products */,
-				B66355C81D250D87005DCAB1 /* README.md */,
+				B66355CC1D250DEB005DCAB1 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,7 +143,7 @@
 			files = (
 				B66D4D571D24AF4F000F7F5B /* ViewController.swift in Sources */,
 				B66D4D551D24AF4F000F7F5B /* AppDelegate.swift in Sources */,
-				B66355C91D250D87005DCAB1 /* README.md in Sources */,
+				B66355CD1D250DEB005DCAB1 /* README.md in Sources */,
 				B66D4D691D24BF0B000F7F5B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
