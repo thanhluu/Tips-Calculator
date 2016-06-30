@@ -16,6 +16,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setInteger(15, forKey: "value_1")
+        defaults.setInteger(20, forKey: "value_2")
+        defaults.setInteger(22, forKey: "value_3")
+        defaults.synchronize()
+        
+        
+//        let defaults = NSUserDefaults.standardUserDefaults()
+//        
+//        let defaults = NSUserDefaults.standardUserDefaults()
+//        let stringValue = defaults.objectForKey("some_key_that_you_choose") as! String
+//        let intValue = defaults.integerForKey("another_key_that_you_choose")
+//        
+//        defaults.setInteger(1, forKey: "value_0")
+//        defaults.setInteger(2, forKey: "value_1")
+//        defaults.setInteger(3, forKey: "value_2")
+//        defaults.synchronize()
         return true
     }
 
