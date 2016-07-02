@@ -24,6 +24,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
+        //self.billField.becomeFirstResponder()
+    }
+    
+    override func viewDidAppear(animated: Bool) {
         self.billField.becomeFirstResponder()
     }
 
@@ -52,11 +56,19 @@ class ViewController: UIViewController {
         let tip = billAmount * tipPercentage
         let total = billAmount + tip
     
-        tipLabel.text = "$\(tip)"
-        totalLabel.text = "$\(total)"
+//        tipLabel.text = "$\(tip)"
+//        totalLabel.text = "$\(total)"
+
+//        tipLabel.text = String(format: "$%.2f", tip)
+//        totalLabel.text = String(format: "$%.2f", total)
         
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        let formatter = NSNumberFormatter()
+        
+        formatter.numberStyle = .CurrencyStyle
+        formatter.locale = NSLocale.currentLocale() // This is the default
+        
+        tipLabel.text = formatter.stringFromNumber(tip)
+        totalLabel.text = formatter.stringFromNumber(total)
     }
 
     @IBAction func onTap(sender: AnyObject) {
