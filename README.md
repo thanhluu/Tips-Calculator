@@ -1,5 +1,7 @@
 # Tips Calculator
 
+NOTE: This repo is outdatted, I was pushed my latest code to this repo: https://github.com/thanhluu/Calculator
+
 **Tips Calculator** is a tip calculator application for iOS.
 
 Submitted by: **Luu Tien Thanh**
